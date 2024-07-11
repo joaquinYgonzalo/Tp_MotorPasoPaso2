@@ -78,12 +78,12 @@ void MedioPaso (int pasos){
                 PTA->PSOR|=(0<<pines[1]);
                 PTA->PSOR|=(1u<<pines[0]);
                 PTA->PSOR|=(1u<<pines[1]);
-            }else if (cant_pasos==5){
+            }else if (cant_pasos==7){
                 PTA->PSOR|=(0<<pines[0]);
                 PTA->PSOR|=(0<<pines[1]);
                 PTA->PSOR|=(0<<pines[0]);
                 PTA->PSOR|=(1u<<pines[1]);
-            }else if (cant_pasos==5){
+            }else if (cant_pasos==8){
                 PTA->PSOR|=(0<<pines[0]);
                 PTA->PSOR|=(0<<pines[1]);
                 PTA->PSOR|=(1u<<pines[0]);
